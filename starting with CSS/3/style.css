@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-form {
+    background-color: #A0E7E5; /* Light gray background */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto; /* Center the form */
+    width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  /* input[type="radio"], */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border color */
+    border-radius: 3px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  textarea {
+    resize: vertical; /* Allow resizing textarea vertically */
+  }
+  
+  .gender-group { /* Arrange options horizontally */
+    display: inline-flex;
+    margin-bottom: 15px;
+  }
+  
+  .gender-group input[type="radio"] {
+    margin-right: 5px; /*Add spacing between radio buttons */
+  }
+  
+  input[type="submit"] {
+    background-color: #3498db; /* Custom blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Optional: Apply opacity to the form background */
+  .custom-form {
+    opacity: 0.8; /* Set opacity to 80% */
+  }
+  
